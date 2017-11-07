@@ -1,0 +1,27 @@
+{
+  "name": "patternlab-node-3.0-demo-integration",
+  "version": "1.0.0",
+  "description": "Example of what you can do with Pattern Lab 3.0",
+  "main": "index.js",
+  "scripts": {
+    "build": "node ./scripts/build.js",
+    "serve": "node ./scripts/serve.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bmuenzenmeyer/patternlab-node-3.0-demo-integration.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/bmuenzenmeyer/patternlab-node-3.0-demo-integration/issues"
+  },
+  "homepage": "https://github.com/bmuenzenmeyer/patternlab-node-3.0-demo-integration#readme",
+  "dependencies": {
+    "@pattern-lab/patternengine-node-mustache": "^2.0.0-alpha.1",
+    "@pattern-lab/patternlab-node": "^3.0.0-alpha.4",
+    "@pattern-lab/styleguidekit-assets-default": "^4.0.0-alpha.2",
+    "@pattern-lab/styleguidekit-mustache-default": "^4.0.0-alpha.1",
+    "node-sass": "^4.6.0"
+  }
+}
